@@ -1,0 +1,217 @@
+
+@media screen and (max-width: 1200px) {
+    .about-description {
+        width: 570px;
+    }
+    .download-resume {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .about-contact-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .portfolio-items {
+        width: 770px;
+        margin: 0 auto;
+    }
+
+    .contact-send {
+        margin-left: 0;
+    }
+    .contact-form {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-container {
+        display: block;
+    }
+    .about-img { 
+        margin: 0 auto;
+    }
+    .main-title {
+        font-size: 46px;
+    }
+    .main-subtitle {
+        width: 423px;
+        font-size: 24px;
+        text-align: center;
+    } 
+    .education-container {
+        display: block;
+    }
+    .education-container .title {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .education-text {
+        padding: 30px 0 0 50px;
+    }
+    .portfolio-items {
+        width: 375px;
+    }
+    .contact-form {
+        display: block;
+    }
+    .contact-send {
+        display: block;
+        margin: 0 auto;
+    }
+    .input-items {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .about-description {
+        width: 470px;
+        padding-left: 25px;
+    }
+    .education-text {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .menu a {
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .about-description {
+        width: 90%;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    .education-text {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .education-text {
+        border-left: 0px;   
+    }
+    .input-items {
+        width: 90%;
+    }
+    .input-title {
+        font-size: 17px;
+    }
+    .input-item input {
+        font-size: 17px;
+    }
+    .download-resume button {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .menu {
+        display: none;
+    }
+    .burger {
+        display: block;
+        position: fixed;
+        right: 40px;
+        top: 0;
+      
+    }
+    .burger svg {
+        padding: 0 5px 5px 5px;
+        background: white;
+        width: 40px;
+        height: 40px;
+        border-left: 3px solid #11ABB0;
+        border-right: 3px solid #11ABB0;
+        border-bottom: 3px solid #11ABB0;
+    }
+    .menu-adaptive-block {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: fixed;
+        left: 0;
+        top: -2000px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        transition: 0.3s;
+    }
+    .menu-adpative {
+        position: relative;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 310px;
+        border-radius: 20px;
+        border: 2px solid #11ABB0;
+        padding: 30px 0;
+        background: white;
+    }
+    .menu-active {
+        background: rgba(0, 0, 0, 0.246);
+        top: 0;
+    }
+    .menu-adpative a {
+        border-bottom: 2px solid #11ABB0;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .menu-close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 25px;
+    }
+    .main-title {
+        font-size: 34px;
+    }
+    .main-subtitle {
+        width: 290px;
+    }
+    .portfolio-items {
+        width: 90%;
+    }
+    
+    .portfolio-item-text {
+        width: 100%;
+    }
+
+    .portfolio-item img {
+        width: 100%;
+    }
+    .portfolio-item {
+        position: relative;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .input-item label {
+        display: block; 
+    }
+    .input-title {
+        padding-bottom: 15px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px 9px;
+    }
+    .input-item textarea {
+        width: 90%
+    }
+    .input-item input {
+        width: 90%
+    }
+    .social-media-items svg {
+        margin: 0 10px
+    }
+}
